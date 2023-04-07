@@ -10,7 +10,7 @@ export default function Search() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSearch("");
-    router.push(`/${search}/`);
+    router.push(`/search/${search}/`);
   };
 
   return (

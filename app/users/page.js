@@ -8,8 +8,6 @@ export const metadata = {
 };
 
 export default async function UserPage(props) {
-  const page = props?.searchParams?.page;
-  console.log("page:", page);
   const users = await getAllUsers();
 
   const content = (
